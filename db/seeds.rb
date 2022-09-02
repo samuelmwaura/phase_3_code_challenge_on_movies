@@ -23,5 +23,14 @@ puts "Creating roles..."
 # * and a role belongs to an actor.                         *
 # ***********************************************************
 # Create Roles Here
+Role.create(salary:rand(45000..56000),character_name:Faker::Name.name,movie:mean_girls,actor:tina_fey)
+Role.create(salary:rand(45000..56000),character_name:Faker::Name.name,movie:spice_world,actor:lindsay_lohan)
+Role.create(salary:rand(45000..56000),character_name:Faker::Name.name,movie:mean_girls,actor:baby_spice)
+Role.create(salary:rand(45000..56000),character_name:Faker::Name.name,movie:spice_world,actor:scary_spice)
+Role.create(salary:rand(45000..56000),character_name:Faker::Name.name,movie:mean_girls,actor:sporty_spice)
+Role.create(salary:rand(45000..56000),character_name:Faker::Name.name,movie:spice_world,actor:posh_spice)
+Role.create(salary:rand(45000..56000),character_name:Faker::Name.name,movie:spice_world,actor:ginger_spice)
+
+
 
 puts "Seeding done!"
